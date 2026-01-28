@@ -10,7 +10,7 @@
   <a href="https://github.com/thunlp/NOSA" style="margin: 2px;">
     <img alt="Code" src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" style="display: inline-block; vertical-align: middle;"/>
   </a>
-  <a href="TODO" style="margin: 2px;">
+  <a href="https://huggingface.co/collections/openbmb/nosa" style="margin: 2px;">
     <img alt="Hugging Face" src="https://img.shields.io/badge/NOSA-fcd022?style=for-the-badge&logo=huggingface&logoColor=000&labelColor" style="display: inline-block; vertical-align: middle;"/>
   </a>
   <a href="https://arxiv.org/abs/2510.13602" style="margin: 2px;">
