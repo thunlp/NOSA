@@ -1,0 +1,10 @@
+input_max_length: 16384
+datasets: multi_lexsum_15684
+generation_max_length: 400
+test_files: ','
+demo_files: ','
+use_chat_template: true
+max_test_samples: 100
+shots: 2
+stop_new_line: false
+model_name_or_path: meta-llama/Llama-3.1-8B-Instruct

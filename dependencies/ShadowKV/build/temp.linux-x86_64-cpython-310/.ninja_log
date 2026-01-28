@@ -1,0 +1,24 @@
+# ninja log v7
+54	70415	1760432454000000000	/home/test/test01/hyx/ShadowKV/build/temp.linux-x86_64-cpython-310/kernels/rope.o	b9d2fdfb53e954fd
+63	71724	1760432454000000000	/home/test/test01/hyx/ShadowKV/build/temp.linux-x86_64-cpython-310/kernels/rope_new.o	5807ae0439bad99c
+40	72519	1760432454000000000	/home/test/test01/hyx/ShadowKV/build/temp.linux-x86_64-cpython-310/kernels/gather_copy.o	3b78c42cb5652f60
+45	78267	1760432454000000000	/home/test/test01/hyx/ShadowKV/build/temp.linux-x86_64-cpython-310/kernels/main.o	63bcd5ae3d278a3e
+33	90294	1760432454000000000	/home/test/test01/hyx/ShadowKV/build/temp.linux-x86_64-cpython-310/kernels/batch_gemm_softmax.o	51a95fe8ca55bef5
+29	95606	1760432454000000000	/home/test/test01/hyx/ShadowKV/build/temp.linux-x86_64-cpython-310/kernels/batch_gather_gemm.o	9f95cf76005428a3
+1625	121434	1764845476000000000	/home/test/test01/hyx/ShadowKV/build/temp.linux-x86_64-cpython-310/kernels/gather_copy.o	3b78c42cb5652f60
+1020	47755	1764848125000000000	/home/test/test01/hyx/ShadowKV/build/temp.linux-x86_64-cpython-310/kernels/gather_copy.o	3b78c42cb5652f60
+172	57153	1764849955000000000	/home/test/test01/hyx/ShadowKV/build/temp.linux-x86_64-cpython-310/kernels/gather_copy.o	3b78c42cb5652f60
+165	47120	1764850437000000000	/home/test/test01/hyx/ShadowKV/build/temp.linux-x86_64-cpython-310/kernels/gather_copy.o	3b78c42cb5652f60
+88	54750	1764852001000000000	/home/test/test01/hyx/ShadowKV/build/temp.linux-x86_64-cpython-310/kernels/gather_copy.o	3b78c42cb5652f60
+4927	51263	1769412475000000000	/home/test/test01/hyx/ShadowKV/build/temp.linux-x86_64-cpython-310/kernels/rope_new.o	35e43a20f0941563
+4912	52691	1769412475000000000	/home/test/test01/hyx/ShadowKV/build/temp.linux-x86_64-cpython-310/kernels/gather_copy.o	659f2837198d4d37
+4916	52979	1769412475000000000	/home/test/test01/hyx/ShadowKV/build/temp.linux-x86_64-cpython-310/kernels/main.o	be6fb9ae62d918e4
+4921	54047	1769412475000000000	/home/test/test01/hyx/ShadowKV/build/temp.linux-x86_64-cpython-310/kernels/rope.o	c94c3b16aae4367e
+4907	57893	1769412475000000000	/home/test/test01/hyx/ShadowKV/build/temp.linux-x86_64-cpython-310/kernels/batch_gemm_softmax.o	dcf8b00c6ac1f69
+4904	59344	1769412475000000000	/home/test/test01/hyx/ShadowKV/build/temp.linux-x86_64-cpython-310/kernels/batch_gather_gemm.o	2969e7041012699e
+46	32231	1769591993000000000	/home/test/test01/hyx/NOSA_github/dependencies/ShadowKV/build/temp.linux-x86_64-cpython-310/kernels/rope.o	fcdc00a9ca4bdd3a
+51	33607	1769591993000000000	/home/test/test01/hyx/NOSA_github/dependencies/ShadowKV/build/temp.linux-x86_64-cpython-310/kernels/rope_new.o	610013f9dd1187ea
+39	37198	1769591993000000000	/home/test/test01/hyx/NOSA_github/dependencies/ShadowKV/build/temp.linux-x86_64-cpython-310/kernels/gather_copy.o	cd49aad0348ba71c
+42	37919	1769591993000000000	/home/test/test01/hyx/NOSA_github/dependencies/ShadowKV/build/temp.linux-x86_64-cpython-310/kernels/main.o	57d5619554f455b9
+31	47795	1769591993000000000	/home/test/test01/hyx/NOSA_github/dependencies/ShadowKV/build/temp.linux-x86_64-cpython-310/kernels/batch_gather_gemm.o	851d63a6aad3ec0f
+34	50580	1769591993000000000	/home/test/test01/hyx/NOSA_github/dependencies/ShadowKV/build/temp.linux-x86_64-cpython-310/kernels/batch_gemm_softmax.o	6060b4908cb57277

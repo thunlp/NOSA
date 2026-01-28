@@ -1,0 +1,11 @@
+python run_infinitebench.py \
+    --task passkey \
+    --model_name_or_path "/home/test/test01/wpj/Megatron-LM/hf_ckpts/1b_fullattn_sft" \
+    --data_dir ./data \
+    --output_dir ./results \
+    --max_seq_length 16384 \
+    --rewrite \
+    --is_search \
+    --start_example_id 3 \
+    --topk_dims_file_path minicpm4_1B_pattern_budget.json \
+    --num_eval_examples 20 --topk 1 --starting_layer 0 --attn_type minference
