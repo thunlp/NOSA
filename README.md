@@ -25,7 +25,7 @@
 
 **NOSA** is a trainable sparse attention mechanism designed for KV-cache offloading with an explicit locality constraint, paired with an inference system (**NOSI**) to realize its efficiency. It improves long-context/long-generation quality over prior offloading baselines while boosting decoding throughput by up to **5.04×** vs **FullAttn**, **1.92×** vs **InfLLMv2**, and **1.83×** vs **ShadowKV** on **1B/3B/8B** LLMs.
 
-<img width="4189" height="1200" alt="framework_github" src="https://github.com/user-attachments/assets/0e8d51af-4257-40f4-94bb-263856d23ee3" />
+<img width="4212" height="1200" alt="framework_github" src="https://github.com/user-attachments/assets/7063339f-8c97-4246-bdd0-5bc6026fbe7f" />
 
 
 
