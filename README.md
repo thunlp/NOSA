@@ -35,9 +35,9 @@ We train 1B, 3B, and 8B models  FullAttn, InfLLMv2, DMA, and NOSA, resulting in 
 
 |Model|Link|
 |:-:|:-:|
-|NOSA-1B | [NOSA-1B](huggingface.co/openbmb/NOSA-1B) |
-|NOSA-3B | [NOSA-3B](huggingface.co/openbmb/NOSA-3B) |
-|NOSA-8B | [NOSA-8B](huggingface.co/openbmb/NOSA-8B) |
+|NOSA-1B | [NOSA-1B](http://huggingface.co/openbmb/NOSA-1B) |
+|NOSA-3B | [NOSA-3B](http://huggingface.co/openbmb/NOSA-3B) |
+|NOSA-8B | [NOSA-8B](http://huggingface.co/openbmb/NOSA-8B) |
 
 Please reach out to us if additional baseline models (FullAttn, InfLLMv2, or DMA) are needed. You may open an issue or contact us directly via email (our email addresses are provided in the paper).
 
@@ -158,7 +158,7 @@ Some content of this repository are adapted from [LongBench](https://github.com/
 
 ## Citation
 
-```
+```bibtex
 @article{huang2025nosa,
   title={NOSA: Native and Offloadable Sparse Attention},
   author={Huang, Yuxiang and Wang, Pengjie and Han, Jicheng and Zhao, Weilin and Su, Zhou and Sun, Ao and Lyu, Hongya and Zhao, Hengyu and Wang, Yudong and Xiao, Chaojun and Han, Xu and Liu, Zhiyuan},
