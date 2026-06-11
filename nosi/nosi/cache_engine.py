@@ -272,7 +272,8 @@ class InfLLMv2CacheLayer(DynamicLayer):
     def update_compress_k_prefill(self, key_states, cu_seqlens, max_seqlen, current_batch_pos, total_bsz):
         key_shape = key_states.size()
         key_states_pad = key_states.view(-1, max_seqlen, key_shape[1], key_shape[2]).contiguous()
-        self.compress_k_cache_varlen = torch.empty((total_bsz, max_seqlen, key_shape[1], key_shape[2]), dtype=key_states.dtype, device=key_states.device)
+        if current_batch_pos == 0:
+            self.compress_k_cache_varlen = torch.empty((total_bsz, max_seqlen, key_shape[1], key_shape[2]), dtype=key_states.dtype, device=key_states.device)
         self.compress_k_cache_varlen[current_batch_pos:current_batch_pos+key_states_pad.shape[0]].copy_(key_states_pad, non_blocking=True)
         if current_batch_pos == 0:
             self.cached_compressed_cu_seqlens = torch.empty((total_bsz+1,), dtype=cu_seqlens.dtype, device=cu_seqlens.device)
@@ -295,7 +296,8 @@ class InfLLMv2CacheLayer(DynamicLayer):
     def update_no_compress_k_prefill(self, key_states, kernel_size=32, kernel_stride=16, current_batch_pos=None, total_bsz=None):
         # key_states: (B, N, H, D)
         B, N, H, D = key_states.shape
-        self.no_compress_k_cache = torch.empty((total_bsz, kernel_size, H, D), dtype=key_states.dtype, device=key_states.device)
+        if current_batch_pos == 0:
+            self.no_compress_k_cache = torch.empty((total_bsz, kernel_size, H, D), dtype=key_states.dtype, device=key_states.device)
         self.no_compress_k_cache[current_batch_pos:current_batch_pos+B, :N, :, :].copy_(key_states)
         self.no_compress_k_len = N
         return
