@@ -162,7 +162,7 @@ Some content of this repository are adapted from [LongBench](https://github.com/
 @article{huang2025nosa,
   title={NOSA: Native and Offloadable Sparse Attention},
   author={Huang, Yuxiang and Wang, Pengjie and Han, Jicheng and Zhao, Weilin and Su, Zhou and Sun, Ao and Lyu, Hongya and Zhao, Hengyu and Wang, Yudong and Xiao, Chaojun and Han, Xu and Liu, Zhiyuan},
-  journal={arXiv preprint arXiv:2510.13602},
-  year={2025}
+  journal={Proceedings of EMNLP 2026},
+  year={2026}
 }
 ```
